@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh; /* مکمل اسکرین کور کرنے کے لیے */
+    background-color: white; /* خالی جگہ کا رنگ سیاہ کر دیا */
+    background-position: center; /* امیج کو سینٹر رکھیں */
+    background-repeat: no-repeat; /* امیج کو بار بار دہرنے سے روکے */
+    background-attachment: fixed; /* اسکرول پر امیج برقرار رہے */
+    background-image: url('image1.jpg'); /* ڈیفالٹ بیک گراؤنڈ امیج */
+    background-size: contain; /* امیج اپنی اصل سائز میں دکھائی دے گا */
+    transition: background-image 0.5s ease-in-out; /* نرم تبدیلی */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0); /* بیک گراؤنڈ کو transparent کیا */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+button {
+    padding: 8px 15px; /* بٹن کا سائز چھوٹا کیا */
+    font-size: 14px; /* بٹن کی تحریر کا سائز چھوٹا کیا */
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+};
